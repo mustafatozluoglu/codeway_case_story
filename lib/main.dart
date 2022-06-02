@@ -26,58 +26,66 @@ class MyApp extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             children: <Widget>[
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.black
+                  color: Colors.black,
+                  border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.blue
+                    color: Colors.blue,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green
+                    color: Colors.green,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.yellow
+                    color: Colors.yellow,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.orange
+                    color: Colors.orange,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pink
+                    color: Colors.pink,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.amber
+                    color: Colors.amber,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
               Container(
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.brown
+                    color: Colors.brown,
+                    border: Border.all(color: Colors.red, width: 5)
                 ),
                 width: 80.0,
               ),
